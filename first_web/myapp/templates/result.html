@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>THe predicted succinylation sites by LSTMCNNsucc </title>
+</head>
+<body>
+<table>
+<tr>
+    <td>protein_name  </td>
+    <td>sites</td>
+</tr>
+{% for name,site in  athlete %}
+   <tr>
+    <td>{{ name}}   </td>
+    <td>{{ site }}</td>
+{% endfor %}
+</table>
+
+</body>
+</html>
